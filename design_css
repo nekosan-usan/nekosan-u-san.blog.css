@@ -13,3 +13,11 @@ display: none;
 span.author.vcard.fn{
 display: none;
 }
+
+.header-image-enable #blog-title #blog-title-inner,.header-image-only #blog-title #blog-title-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+    max-height: 250px
+}
