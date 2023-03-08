@@ -41,3 +41,9 @@ display: none;
     overflow: auto;
     display: block;
 }
+
+#container {
+    background:
+        linear-gradient(to right, rgba(255,163,236,.8), transparent 150px),
+        linear-gradient(to left,rgba(255,182,117,.8), transparent 150px);
+}
