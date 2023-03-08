@@ -22,6 +22,26 @@ display: none;
     max-height: 250px
 }
 
+.entry-content p {
+    margin: 0 0 3em;
+}
+
+.entry-content ul, .entry-content ol, .entry-content dd {
+    margin: 0 0 3em 1.5em;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.entry-content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom: 1em;
+    margin-bottom: 3em;
+    width: 100%;
+    overflow: auto;
+    display: block;
+}
+
 #container {
     background:
         linear-gradient(to right, rgba(255,163,236,.8), transparent 150px),
