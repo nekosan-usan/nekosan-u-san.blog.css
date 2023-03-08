@@ -1,0 +1,15 @@
+/* <system section="theme" selected="smooth"> */
+@import "/css/theme/smooth/smooth.css";
+/* </system> */
+
+/* <system section="background" selected="default"> */
+/* default */
+/* </system> */
+
+
+span.author.vcard{
+display: none;
+}
+span.author.vcard.fn{
+display: none;
+}
