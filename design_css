@@ -21,3 +21,9 @@ display: none;
     height: 50vw;
     max-height: 250px
 }
+
+#container {
+    background:
+        linear-gradient(to right, rgba(255,163,236,.8), transparent 150px),
+        linear-gradient(to left,rgba(255,182,117,.8), transparent 150px);
+}
