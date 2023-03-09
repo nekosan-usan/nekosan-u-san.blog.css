@@ -19,7 +19,7 @@ display: none;
     align-items: center;
     justify-content: center;
     height: 50vw;
-    max-height: 250px
+    max-height: 220px;
 }
 
 .entry-content p {
