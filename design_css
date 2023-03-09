@@ -47,3 +47,31 @@ display: none;
         linear-gradient(to right, rgba(255,163,236,.8), transparent 150px),
         linear-gradient(to left,rgba(255,182,117,.8), transparent 150px);
 }
+
+.page-archive .archive-entry:has(.category-ねこさん) {
+    background: #fff;
+    border: 3px solid rgba(255,182,117,.8);
+    margin-bottom: 30px;
+    padding: 9% 6% 6%;
+}
+
+.page-archive .archive-entry:has(.category-うーさん) {
+    background: #fff;
+    border: 3px solid rgba(255,163,236,.8);
+    margin-bottom: 30px;
+    padding: 9% 6% 6%;
+}
+
+.entry:has(.category-ねこさん){
+    background: #fff;
+    border: 3px solid rgba(255,182,117,.8);
+    margin-bottom: 2em;
+    padding: 8% 5%;
+}
+
+.entry:has(.category-うーさん){
+    background: #fff;
+    border: 3px solid rgba(255,163,236,.8);
+    margin-bottom: 2em;
+    padding: 8% 5%;
+}
