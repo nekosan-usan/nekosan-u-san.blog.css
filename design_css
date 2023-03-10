@@ -1,19 +1,15 @@
-/* <system section="theme" selected="smooth"> */
+// デフォルトで設置されていたcss
 @import "/css/theme/smooth/smooth.css";
-/* </system> */
 
-/* <system section="background" selected="default"> */
-/* default */
-/* </system> */
-
-
+// 各記事下部の投稿者のユーザー名が見えないように修正
 span.author.vcard{
-display: none;
+    display: none;
 }
 span.author.vcard.fn{
-display: none;
+    display: none;
 }
 
+// ヘッダー下部の画像が欠けるため、見えるようにmax-heightの幅を広げた
 .header-image-enable #blog-title #blog-title-inner,.header-image-only #blog-title #blog-title-inner {
     display: flex;
     align-items: center;
@@ -22,16 +18,15 @@ display: none;
     max-height: 220px;
 }
 
+// 記事内の段落・リスト・テーブル下部のmarginを広げた
 .entry-content p {
     margin: 0 0 3em;
 }
-
 .entry-content ul, .entry-content ol, .entry-content dd {
     margin: 0 0 3em 1.5em;
     padding: 0;
     line-height: 1.7;
 }
-
 .entry-content table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -42,33 +37,32 @@ display: none;
     display: block;
 }
 
+// ブログ背景にピンク→白→オレンジのグラデーションを設置した
 #container {
     background:
         linear-gradient(to right, rgba(255,163,236,.8), transparent 150px),
         linear-gradient(to left,rgba(255,182,117,.8), transparent 150px);
 }
 
+// 記事のカテゴリにより枠の装飾を変える設定を加えた
 .page-archive .archive-entry:has(.category-ねこさん) {
     background: #fff;
     border: 3px solid rgba(255,182,117,.8);
     margin-bottom: 30px;
     padding: 9% 6% 6%;
 }
-
 .page-archive .archive-entry:has(.category-うーさん) {
     background: #fff;
     border: 3px solid rgba(255,163,236,.8);
     margin-bottom: 30px;
     padding: 9% 6% 6%;
 }
-
 .entry:has(.category-ねこさん){
     background: #fff;
     border: 3px solid rgba(255,182,117,.8);
     margin-bottom: 2em;
     padding: 8% 5%;
 }
-
 .entry:has(.category-うーさん){
     background: #fff;
     border: 3px solid rgba(255,163,236,.8);
